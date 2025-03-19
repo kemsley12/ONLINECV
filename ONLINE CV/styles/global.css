@@ -1,0 +1,196 @@
+.bodyCntr{
+    background-color: rgba(247, 250, 245, 0.897);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/*i used this as my header*/
+.myName{
+    background-color: #888282;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/*Responsive for tablets*/
+@media screen and (max-width: 768px) {
+    .bodyCntr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+/*Responsive for laptops*/
+@media screen and (max-width:1024px) {
+    section{
+        max-width: 80%;
+    }
+    
+}
+
+/*this is to show my name and adress*/
+.name{
+    margin: 0;
+}
+
+/*this is where i put all my sections and articles to display it*/
+.info{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section{
+    margin: 20px 0;
+    
+}
+section h2{
+    background-color: #b3b0b0;
+    
+}
+.aboutme{
+    background-color:#837f7f;   
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.Technicalskills{
+    background-color:#837f7f;   
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.WorkExperience{
+    background-color:#837f7f;   
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.Projects{
+    background-color:#837f7f;   
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.Education{
+    background-color:#837f7f;   
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.Contact{
+    background-color:#837f7f;   
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.Reference{
+    background-color:#837f7f;   
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+article h3{
+    margin-top: 0;
+}
+/*the reason why i put in a footer to put in more sections*/
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .nav{
+        display: flex;
+    }
+    
+}
+nav{
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav p{
+    float: left;
+    display: block;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/*this is when you can hover over the navigation bar*/
+nav p:hover{
+    background-color: #0f0f0f;
+    color: black;
+}
+
+nav p :active{
+    background-color: #4caf50;
+    color: white;
+}
+
+/*.toggle-btn{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}*/
+
+button{
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/*this is the code for the dark mode button*/
+body.dark-mode{
+    background-color: #121212;
+    color: white;
+} 
+
+header.dark-mode{
+    background-color: white;
+    color: #121212;
+}
+
+button.dark-mode{
+    background-color: #222;
+    color: #201e1e;
+}
+
+section.dark-mode{
+    background-color: #222;
+   
+}
+
+h1.dark-mode,h2.dark-mode{
+    color: #333;
+}
+
+section h2.dark-mode{
+    background-color: #222;
+    color: #121212;
+}
+/*the color for my link*/
+a{
+    color: #ddd;
+}
+

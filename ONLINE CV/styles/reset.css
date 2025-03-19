@@ -1,0 +1,50 @@
+.bodyCntr{
+    background-color: rgba(160, 216, 132, 0.897);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*i used this as my header*/
+.myName{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*this is to show my name and adress*/
+.name{
+    margin: 0;
+}
+
+/*this is where i put all my sections and articles to display it*/
+.info{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+section{
+    margin: 20px 0;
+}
+section h2{
+    background-color: #b3b0b0;
+}
+article{
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+article h3{
+    margin-top: 0;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
